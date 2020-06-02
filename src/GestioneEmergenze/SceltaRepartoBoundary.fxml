@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GestioneEmergenze.SceltaRepartoBoundary">
+   <children>
+      <ListView fx:id="list" layoutX="54.0" layoutY="85.0" prefHeight="200.0" prefWidth="493.0" />
+      <Label layoutX="54.0" layoutY="36.0" text="Selezionare un reparto" />
+      <Button layoutX="481.0" layoutY="31.0" mnemonicParsing="false" onAction="#clickIndietro" text="Indietro" />
+      <Button layoutX="468.0" layoutY="329.0" mnemonicParsing="false" onAction="#clickConferma" text="Conferma" />
+   </children>
+</AnchorPane>

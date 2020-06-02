@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="404.0" prefWidth="831.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GestionePrenotazioni.PagamentoPrestazioneBoundary">
+   <children>
+      <ListView fx:id="list" layoutX="54.0" layoutY="98.0" prefHeight="223.0" prefWidth="713.0" />
+      <Button layoutX="701.0" layoutY="23.0" mnemonicParsing="false" onAction="#clickIndietro" text="Indietro" />
+      <Button layoutX="718.0" layoutY="354.0" mnemonicParsing="false" onAction="#clickPaga" text="Paga" />
+      <Label layoutX="54.0" layoutY="28.0" text="Selezionare una prenotazione e preme su Paga" />
+   </children>
+</AnchorPane>

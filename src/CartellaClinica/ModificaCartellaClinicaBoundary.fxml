@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="517.0" prefWidth="695.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="CartellaClinica.ModificaCartellaClinicaBoundary">
+   <children>
+      <Button layoutX="585.0" layoutY="29.0" mnemonicParsing="false" onAction="#clickIndietro" text="Indietro" />
+      <Label fx:id="paziente" layoutX="35.0" layoutY="14.0" prefHeight="56.0" prefWidth="325.0" text="paziente" />
+      <Label fx:id="prenotazione" layoutX="35.0" layoutY="79.0" prefHeight="84.0" prefWidth="325.0" text="prenotazione" />
+      <Button layoutX="508.0" layoutY="442.0" mnemonicParsing="false" onAction="#confermaModifiche" text="Conferma modifiche" />
+      <Label layoutX="36.0" layoutY="206.0" text="Anamnesi:" />
+      <Label layoutX="35.0" layoutY="279.0" text="Diagnosi:" />
+      <Label layoutX="35.0" layoutY="348.0" text="Cure:" />
+      <TextArea fx:id="anamnesi" layoutX="106.0" layoutY="206.0" prefHeight="71.0" prefWidth="546.0" />
+      <TextArea fx:id="diagnosi" layoutX="106.0" layoutY="277.0" prefHeight="71.0" prefWidth="546.0" />
+      <TextArea fx:id="cure" layoutX="106.0" layoutY="348.0" prefHeight="71.0" prefWidth="546.0" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+Class-Path: javax.activation-1.1.0.v201105071233.jar javax.mail.jar my
+ sql-connector-java-8.0.13.jar pdfclown.jar
+Main-Class: InserimentoRicetta.InserimentoRicettaControl
+

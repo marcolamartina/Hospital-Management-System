@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Autenticazione.MenuMedicoBoundary">
+   <children>
+      <Button layoutX="234.0" layoutY="115.0" mnemonicParsing="false" onAction="#clickSelezionaPaziente" text="Seleziona paziente" />
+      <Button layoutX="215.0" layoutY="173.0" mnemonicParsing="false" onAction="#clickVisualizzaCartellaClinica" text="Visualizza cartella clinica" />
+      <Label fx:id="nomeCognome" alignment="CENTER" layoutX="416.0" layoutY="315.0" prefHeight="17.0" prefWidth="171.0" text="nomeCognome" textAlignment="CENTER" />
+      <Button layoutX="458.0" layoutY="341.0" mnemonicParsing="false" onAction="#clickDisconnetti" text="Disconnetti" />
+      <Label layoutX="32.0" layoutY="50.0" text="Scegliere l'operazione da effettuare" />
+      <Button layoutX="240.0" layoutY="237.0" mnemonicParsing="false" onAction="#clickGestioneRicoveri" text="Gestione ricoveri" />
+   </children>
+</AnchorPane>

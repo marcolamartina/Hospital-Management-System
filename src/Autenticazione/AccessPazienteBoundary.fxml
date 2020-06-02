@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
+<VBox prefHeight="400.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Autenticazione.AccessPazienteBoundary">
+  <children>
+    <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="-1.0" prefWidth="-1.0" VBox.vgrow="ALWAYS">
+      <children>
+            <Text layoutX="235.0" layoutY="106.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Codice Fiscale" />
+            <TextField fx:id="CodiceFiscaleText" layoutX="235.0" layoutY="122.0" promptText="Inserire il codice fiscale" />
+            <PasswordField fx:id="PasswordText" layoutX="235.0" layoutY="187.0" promptText="Inserire la password" />
+            <Button layoutX="344.0" layoutY="281.0" mnemonicParsing="false" onAction="#clickAccedi" text="Accedi" />
+            <Text layoutX="236.0" layoutY="177.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password" />
+            <Button layoutX="236.0" layoutY="281.0" mnemonicParsing="false" onAction="#clickRegistrati" text="Registrati" />
+            <Button layoutX="543.0" layoutY="41.0" mnemonicParsing="false" onAction="#clickIndietro" text="Indietro" />
+      </children>
+    </AnchorPane>
+  </children>
+</VBox>

@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+Class-Path: javax.activation-1.1.0.v201105071233.jar javax.mail.jar pd
+ fclown.jar mysql-connector-java-8.0.13.jar
+Main-Class: ComponentiEsterne.Server
+

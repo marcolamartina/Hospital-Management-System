@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="CartellaClinica.RicercaPazienteBoundary">
+   <children>
+      <Button layoutX="493.0" layoutY="40.0" mnemonicParsing="false" onAction="#clickIndietro" text="Indietro" />
+      <Button layoutX="486.0" layoutY="334.0" mnemonicParsing="false" onAction="#clickConferma" text="Conferma" />
+      <Label layoutX="38.0" layoutY="101.0" prefWidth="502.0" text="Inserire nome e cognome del paziente di cui si vuole visualizzare la cartella clinica" />
+      <Label layoutX="38.0" layoutY="162.0" text="Nome" />
+      <Label layoutX="38.0" layoutY="241.0" text="Cognome" />
+      <TextField fx:id="nome" layoutX="122.0" layoutY="157.0" promptText="Inserire il nome" />
+      <TextField fx:id="cognome" layoutX="122.0" layoutY="236.0" promptText="Inserire il cognome" />
+   </children>
+</AnchorPane>

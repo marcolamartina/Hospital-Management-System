@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="409.0" prefWidth="826.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GestionePrenotazioni.GestionePrenotazioniBoundary">
+   <children>
+      <ListView fx:id="list" layoutX="54.0" layoutY="98.0" prefHeight="223.0" prefWidth="719.0" />
+      <Button layoutX="707.0" layoutY="27.0" mnemonicParsing="false" onAction="#clickIndietro" text="Indietro" />
+      <Button layoutX="711.0" layoutY="355.0" mnemonicParsing="false" onAction="#clickElimina" text="Elimina" />
+      <Button layoutX="612.0" layoutY="355.0" mnemonicParsing="false" onAction="#clickModifica" text="Modifica" />
+      <Button layoutX="498.0" layoutY="355.0" mnemonicParsing="false" onAction="#clickDocumenti" text="Documenti" />
+      <Label layoutX="54.0" layoutY="29.0" text="Selezionare una prenotazione per eseguire un'operazione" />
+   </children>
+</AnchorPane>

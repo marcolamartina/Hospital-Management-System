@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="408.0" prefWidth="555.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GestionePrenotazioni.SceltaPrestazioneBoundary">
+   <children>
+      <ListView fx:id="list" layoutX="54.0" layoutY="98.0" prefHeight="198.0" prefWidth="447.0" />
+      <Button layoutX="435.0" layoutY="24.0" mnemonicParsing="false" onAction="#clickIndietro" text="Indietro" />
+      <Button layoutX="422.0" layoutY="349.0" mnemonicParsing="false" onAction="#clickConferma" text="Conferma" />
+      <Label layoutX="54.0" layoutY="67.0" text="Prestazione" />
+      <Label layoutX="54.0" layoutY="29.0" text="Selezionare una prestazione e il livello di urgenza" />
+      <ComboBox fx:id="urgenza" layoutX="54.0" layoutY="349.0" prefWidth="150.0" />
+      <Label layoutX="54.0" layoutY="315.0" text="Urgenza" />
+   </children>
+</AnchorPane>

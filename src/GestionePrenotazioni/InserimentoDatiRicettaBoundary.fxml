@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GestionePrenotazioni.InserimentoDatiRicettaBoundary">
+   <children>
+      <Label layoutX="40.0" layoutY="46.0" text="Per prenotare una prestazione inserisci il codice della ricetta" />
+      <Button layoutX="501.0" layoutY="41.0" mnemonicParsing="false" onAction="#clickIndietro" text="Indietro" />
+      <TextField fx:id="codiceRicetta" layoutX="40.0" layoutY="100.0" prefHeight="27.0" prefWidth="206.0" promptText="Inserire il codice della ricetta" />
+      <Button layoutX="504.0" layoutY="334.0" mnemonicParsing="false" onAction="#clickConferma" text="Conferma" />
+   </children>
+</AnchorPane>

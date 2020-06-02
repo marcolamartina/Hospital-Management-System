@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="503.0" prefWidth="834.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GestioneRicoveri.ListaRicoveratiBoundary">
+   <children>
+      <ListView fx:id="list" layoutX="54.0" layoutY="70.0" prefHeight="344.0" prefWidth="721.0" />
+      <Button layoutX="709.0" layoutY="21.0" mnemonicParsing="false" onAction="#clickIndietro" text="Indietro" />
+      <Button layoutX="659.0" layoutY="436.0" mnemonicParsing="false" onAction="#clickEliminaRicovero" text="Elimina ricovero" />
+      <Button layoutX="472.0" layoutY="436.0" mnemonicParsing="false" onAction="#clickModificaCartellaClinica" text="Modifica cartella clinica" />
+      <Button layoutX="323.0" layoutY="436.0" mnemonicParsing="false" onAction="#clickAggiungiRicovero" text="Aggiungi ricovero" />
+      <Label layoutX="54.0" layoutY="29.0" text="Selezionare un paziente ricoverato per eseguire un'operazione" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"Autenticazione"},{"l":"CartellaClinica"},{"l":"ComponentiEsterne"},{"l":"Entity"},{"l":"GestioneEmergenze"},{"l":"GestionePrenotazioni"},{"l":"GestioneRicoveri"},{"l":"Remind"}]

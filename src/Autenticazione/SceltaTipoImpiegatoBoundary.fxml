@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Text?>
+<VBox prefHeight="400.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Autenticazione.SceltaTipoImpiegatoBoundary">
+  <children>
+    <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="-1.0" prefWidth="-1.0" VBox.vgrow="ALWAYS">
+         <children>
+            <Text layoutX="34.0" layoutY="74.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Scegliere il tipo di impiegato che si vuole registrare" AnchorPane.leftAnchor="34.0" AnchorPane.topAnchor="61.0" />
+            <Button layoutX="218.0" layoutY="187.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#clickMedico" prefHeight="26.0" prefWidth="190.0" text="Medico" />
+            <Button layoutX="218.0" layoutY="246.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#clickAmministrativo" prefHeight="26.0" prefWidth="190.0" text="Amministrativo" AnchorPane.bottomAnchor="127.0" />
+            <Button layoutX="539.0" layoutY="55.0" mnemonicParsing="false" onAction="#clickIndietro" text="Indietro" />
+         </children>
+    </AnchorPane>
+  </children>
+</VBox>
