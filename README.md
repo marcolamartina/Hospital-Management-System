@@ -1,1 +1,1 @@
-# Sistema di gestione ospedale
+# Hospital management system
